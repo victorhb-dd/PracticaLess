@@ -1,0 +1,38 @@
+/* line 19, colores.less */
+.elemento {
+  border-top: 1px solid #003300;
+  border-bottom: 1px solid #b3b3b3;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #333333;
+  background-color: #ff00d4;
+  box-shadow: 1px 1px 1px rgba(0, 153, 0, 0.2);
+}
+/* line 1, layout.less */
+.variableHola {
+  content: "Hola, saludos y me despido";
+}
+/* line 5, layout.less */
+.variableSuma {
+  content: 60;
+}
+/* line 8, layout.less */
+.variableResta {
+  content: 20;
+}
+/* line 11, layout.less */
+.variableDivision {
+  content: 2;
+}
+/* line 14, layout.less */
+.variableMultiplicacion {
+  content: 800;
+}
+/* line 17, layout.less */
+.variableTotal {
+  content: 40.5;
+}
+/* line 20, layout.less */
+.variableFuncion {
+  content: 22;
+}
+/*# sourceMappingURL=estilos.css.map */

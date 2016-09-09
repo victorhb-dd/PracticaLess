@@ -1,0 +1,27 @@
+//Colores
+@negro: #000;
+@blanco: #FFF;
+@verde: #00FF00;
+
+@borderColor: darken(@verde, 40%);
+
+@grisOscuro  : darken(@blanco, 80%);
+@gris        : darken(@blanco, 50%);
+@grisClaro   : darken(@blanco, 30%);
+@grismasClaro: darken(@blanco, 15%);
+
+
+//Colores complementarios (Spin)
+@comp: spin(@verde, 190);
+
+@crazyColor: fade(darken(@verde, 20%), 20%);
+
+.elemento {
+    border-top: 1px solid @borderColor;
+    border-bottom: 1px solid @grisClaro;
+    border-left: 1px solid @grismasClaro;
+    border-right: 1px solid @grisOscuro;
+    background-color: @comp;
+    box-shadow: 1px 1px 1px @crazyColor;
+}
+

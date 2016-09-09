@@ -70,8 +70,6 @@ video {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -88,23 +86,49 @@ section {
 /*Tipografia*/
 h1 {
   color: #E4E5D3;
+  font-size: 2.5em;
+  margin-bottom: 12px;
 }
 h2 {
-  color: #9d9181;
+  color: #9D9181;
+  font-size: 1.5em;
+  margin-bottom: 24px;
+}
+a:link,
+a:visited {
+  color: #E4E5D3;
+  font-family: Arial, Helvetica;
+  background-color: #7F6443;
+  padding: 12px;
+  display: inline-block;
+  text-decoration: none;
+}
+a:link::before {
+  content: '- ';
 }
 /*Web Layout*/
 body {
+  padding: 24px;
+  margin: 0;
   background-color: #280501;
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 article {
+  background-color: #E4E5D3;
   float: left;
-  width: 50%;
-  margin: 12px;
+  margin-top: 24px;
+  padding: 12px;
+  width: 48%;
 }
-section {
-  margin: 24px;
+article:first-child {
+  margin-right: 1%;
 }
-#titulo1 {
-  color: purple;
-  font-size: 4rem;
+article:last-child {
+  margin-left: 1%;
+}
+a {
+  width: 120px;
+  margin-bottom: 5px;
 }

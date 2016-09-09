@@ -1,0 +1,23 @@
+/*Tipografia*/
+
+h1 {
+    color: @colorH1;
+    font-size: 2.5em;
+    margin-bottom: @margen1 / 2;
+}
+h2 {
+    color: @colorH2;
+    font-size: 1.5em;
+    margin-bottom: @margen1;
+}
+a:link, a:visited {
+    color: @ColorTexto1;
+    font-family: Arial, Helvetica;
+    background-color: @bgLink;
+    padding: @margen1 / 2;
+    display: inline-block;
+    text-decoration: none;
+}
+a:link::before {
+    content: @separador;
+}

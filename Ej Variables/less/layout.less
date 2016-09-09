@@ -1,0 +1,29 @@
+/*Web Layout*/
+body {
+    padding: @margen1;
+    margin: 0;
+    background-color: @marronRj;
+    background-image: url("@{imgpath}/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article {
+    background-color: @ColorTexto1;
+    float: left;
+    @import "small.less";
+    //margin: @gutter;
+    margin-top: @margen1;
+    padding: @margen1 / 2;
+    width: 48%;
+}
+article:first-child {
+    margin-right: 1%;
+}
+article:last-child {
+    margin-left: 1%;
+}
+
+a {
+    width: 120px;
+    margin-bottom: 5px;
+}
