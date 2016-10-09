@@ -1,0 +1,69 @@
+@borde : 4px;
+.cuadrado {
+    background-color: @colorbase;
+    border: @borde solid @colorborde;
+}
+.clearfix {
+    zoom : 1;
+    &:before, &:after {
+        display: table;
+        content: "";
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.anchomaximo {
+    max-width: @anchomaximo;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+//Mixins parametrico
+.border-box(@box : border-box) {
+    box-sizing: @box;
+    -webkit-box-sizing: @box;
+    -moz-box-sizing: @box;
+    -ms-box-sizing: @box;
+}
+
+.font-size(@size: 16){
+    @rem : @size / 16;
+    font-size: @size * 1px;
+    font-size: ~"@{rem}rem";
+}
+
+.sombra(@X: 1px; @Y: 1px; @desenf: 2px; @alfa: 0.5) {
+    box-shadow: @X @Y @desenf rgba(0,0,0,@alfa);
+    -webkit-box-shadow: @X @Y @desenf rgba(0,0,0,@alfa);
+    -moz-box-shadow: @X @Y @desenf rgba(0,0,0,@alfa);
+    
+}
+
+//Condicionales
+/*
+.esquema(@esquema) when (@esquema = opaco) {
+    color: darken(@colorbase, 20%);
+}
+.esquema(@esquema) when (@esquema = vivo) {
+    color: lighten(@colorbase, 40%);
+}
+*/
+.esquema(opaco;) {
+    color: darken(@colorbase, 20%);
+}
+.esquema(vivo;) {
+    color: lighten(@colorbase, 40%);
+}
+.esquema(@_) {
+    text-align: center;
+}
+
+.color(verde;) {
+    background-color: #38c943;
+}
+.color(azul;) {
+    background-color: #001dff;
+}

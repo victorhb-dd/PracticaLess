@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+}
+#bloque {
+  border: 2px dashed #000;
+  width: 95%;
+  height: 80%;
+  position: absolute;
+  line-height: calc(4em);
+}
+#valoresComunes {
+  border: 1px solid #000;
+  margin: 15px;
+}
+.contenedor {
+  width: calc(23.33333333%);
+  height: 100px;
+  margin: 0 8px;
+  border: 1px dashed #000;
+  float: left;
+}
+.contenedor #cuadro1 {
+  border: 1px solid #000;
+  margin: 15px;
+  width: auto;
+}
+.contenedor #cuadro2 {
+  border: 1px solid #000;
+  margin: 15px;
+  width: 100%;
+}
+.contenedor #cuadro3 {
+  border: 1px solid #000;
+  margin: 15px;
+  width: calc(70%);
+}
+/*# sourceMappingURL=calculos.css.map */

@@ -1,0 +1,137 @@
+/*Variables*/
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+/*Tipografia*/
+h1 {
+  color: #e4e5d3;
+  font-size: 2.5em;
+  margin-bottom: 12px;
+}
+h2 {
+  color: #9d9181;
+  font-size: 1.5em;
+  margin-bottom: 24px;
+}
+a:link,
+a:visited {
+  color: #e4e5d3;
+  font-family: Arial, Helvetica;
+  background-color: #7f6443;
+  padding: 12px;
+  display: inline-block;
+  text-decoration: none;
+}
+a:link::before {
+  content: '- ';
+}
+/*Web Layout*/
+body {
+  padding: 24px;
+  margin: 0;
+  background-color: #280501;
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article {
+  background-color: #e4e5d3;
+  float: left;
+  margin-top: 24px;
+  padding: 12px;
+  width: 48%;
+}
+article:first-child {
+  margin-right: 1%;
+}
+article:last-child {
+  margin-left: 1%;
+}
+a {
+  width: 120px;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=practica.css.map */

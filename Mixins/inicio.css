@@ -1,0 +1,119 @@
+.cuadrado {
+  background-color: #b220b2;
+  border: 4px solid #e157e1;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.anchomaximo {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+.esquema(@esquema) when (@esquema = opaco) {
+    color: darken(@colorbase, 20%);
+}
+.esquema(@esquema) when (@esquema = vivo) {
+    color: lighten(@colorbase, 40%);
+}
+*/
+h1 {
+  color: #5c105c;
+  text-align: center;
+}
+#cuadro1 {
+  width: calc(16%);
+  height: 100px;
+  float: left;
+  background-color: #b220b2;
+  border: 4px solid #e157e1;
+}
+#cuadro2 {
+  width: calc(78%);
+  height: 100px;
+  float: right;
+  background-color: #b220b2;
+  border: 4px solid #e157e1;
+}
+@media all and (min-width: 600px) {
+  #cuadro1,
+  #cuadro2 {
+    width: 200px;
+  }
+  #cuadro2 {
+    background-color: #38c943;
+  }
+  .contendor-cuadros {
+    *zoom: 1;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contendor-cuadros:before,
+  .contendor-cuadros:after {
+    display: table;
+    content: "";
+  }
+  .contendor-cuadros:after {
+    clear: both;
+  }
+  p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+article {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+}
+section {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+header {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+header h1 {
+  box-shadow: 10px 10px 10px #000000;
+  -webkit-box-shadow: 10px 10px 10px #000000;
+  -moz-box-shadow: 10px 10px 10px #000000;
+  max-width: 400px;
+  font-size: 26px;
+  font-size: 1.625rem;
+}
+@media all and (min-width: 800px) {
+  p {
+    max-width: 80%;
+    box-shadow: 10px 1px 2px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  header h1 {
+    font-size: 32px;
+    font-size: 2rem;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    max-width: 1000px;
+    background-color: #b220b2;
+    border: 4px solid #e157e1;
+  }
+}
+/*# sourceMappingURL=inicio.css.map */

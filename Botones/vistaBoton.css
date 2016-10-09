@@ -1,0 +1,25 @@
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  background: linear-gradient(rgba(182, 255, 161, 0.88), #0eaf0e);
+  background-color: rgba(182, 255, 161, 0.88);
+  border: 1px solid #2d636a;
+  border-radius: 4px;
+  color: azure;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  height: 32px;
+  line-height: 32px;
+  padding: 0px 26px;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: sans-serif, "helvetica", "arial";
+  margin: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+/*# sourceMappingURL=vistaBoton.css.map */

@@ -1,0 +1,21 @@
+#columnas {
+    @cantcolumnas : 3;
+    .grupo(@cantcolumnas);
+    //display: block;
+    align-content: center;
+    vertical-align: middle;
+    
+    .cuadro {
+        padding: 10px 0;
+        .columnas(@cantcolumnas);
+        
+        //width: calc((@anchura / @cantcolumnas) - (@borde * @cantcolumnas));
+        
+        line-height: 30px;
+        display: block;
+        float: left;
+        text-align: center;
+        background-color: burlywood;
+        //border: 2px solid blue;
+    }
+}

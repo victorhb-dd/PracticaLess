@@ -1,0 +1,16 @@
+#columnas {
+  width: 264.00543478px;
+  align-content: center;
+  vertical-align: middle;
+}
+#columnas .cuadro {
+  padding: 10px 0;
+  margin: 0 6px;
+  width: 76px;
+  line-height: 30px;
+  display: block;
+  float: left;
+  text-align: center;
+  background-color: burlywood;
+}
+/*# sourceMappingURL=grilla.css.map */

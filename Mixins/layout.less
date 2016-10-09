@@ -1,0 +1,61 @@
+h1 {
+    .esquema(@esquema);
+}
+#cuadro1 {
+    width: calc(20% - @borde);
+    height: 100px;
+    float: left;
+    .cuadrado;
+}
+
+#cuadro2 {
+    width: calc(82% - @borde);
+    height: 100px;
+    float: right;
+    .cuadrado;
+}
+
+@media all and (min-width: 600px) {
+    #cuadro1, #cuadro2 {
+        width: 200px;
+    }
+    #cuadro2 {
+        .color(@cambiocolor);
+    }
+    .contendor-cuadros {
+        .clearfix;
+        .anchomaximo;
+    }
+    p {
+        .anchomaximo;
+    }
+}
+
+article {
+    .border-box(content-box);
+}
+section {
+    .border-box(border-box);
+}
+header {
+    .border-box();
+    
+    h1 {
+        .sombra(10px, 10px, 10px, 1);
+        max-width: @anchomaximo - 200px;
+        .font-size(26);
+    }
+}
+
+@media all and (min-width: 800px) {
+    p {
+        max-width: 80%;
+        .sombra(10px);
+    }
+    header h1 {
+        .font-size(32);
+        .sombra(0, 0, 0, 0);
+        max-width: @anchomaximo + 400px;
+        .cuadrado;
+    }
+}

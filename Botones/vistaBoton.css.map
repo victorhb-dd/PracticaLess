@@ -1,0 +1,1 @@
+{"version":3,"file":"vistaBoton.css","sources":["layout.less","mixins.less","botones.less"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;;AAFJ,EAGI;ECFA,YAAY,mDAAZ;EACA,2CAAA;ECCA,yBAAA;EACA,kBAAA;EACA,YAAA;EACA,2CAAA;EACA,qBAAA;EACA,sBAAA;EACA,OAAA;EACA,YAAA;EACA,iBAAA;EACA,iBAAA;EACA,gBAAA;EACA,eAAA;EACA,yBAAyB,aAAa,OAAtC;EACA,WAAA;EACA,qBAAA;EACA,kBAAA","sourceRoot":""}

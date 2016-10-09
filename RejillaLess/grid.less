@@ -1,0 +1,18 @@
+@ancho_fijo : (@columnas * @ancho_columnas) + (@columnas * @ancho_margen) * 1px;
+
+@ancho_total: @ancho_fijo;
+@ancho_porcentual: 100;
+
+.grupo(@ocupa) {
+    @anchura : @ancho_total * ((((@ancho_columnas + @ancho_margen) * @ocupa) - @ancho_margen) / @ancho_fijo);
+    width: @anchura + ((@ancho_margen * .5) / @ancho_fijo);
+}
+.columnas(@ocupa) {
+    @margen : (@ancho_margen * .5) * 1px;
+    
+    margin: 0 @margen;
+    
+    width : (@anchura / @ocupa) - (@margen * 2);
+
+   
+}
